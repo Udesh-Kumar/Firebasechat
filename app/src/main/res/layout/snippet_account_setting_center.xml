@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            android:id="@+id/update_profile_image"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/profileimage"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/change_image"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="ChangeImage"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_below="@id/linear_layout"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/change_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Status"
+            android:background="@drawable/bt_border"
+            android:textColor="@color/White"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            android:gravity="center"
+
+
+            />
+        <TextView
+            android:id="@+id/name"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/change_status"
+            android:text="Name"
+            android:background="@drawable/bt_border"
+            android:textColor="@color/Black"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            android:gravity="center"
+
+
+            />
+        <TextView
+            android:id="@+id/Username"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:text="UserName"
+            android:background="@drawable/bt_border"
+            android:textColor="@color/White"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            android:gravity="center"
+
+
+            />
+        <TextView
+            android:id="@+id/Mobile"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Username"
+            android:text="Mobile"
+            android:background="@drawable/bt_border"
+            android:textColor="@color/White"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            android:gravity="center"
+
+
+            />
+        <TextView
+            android:id="@+id/country"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Mobile"
+            android:text="Country"
+            android:background="@drawable/bt_border"
+            android:textColor="@color/White"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            android:gravity="center"
+
+
+            />
+
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

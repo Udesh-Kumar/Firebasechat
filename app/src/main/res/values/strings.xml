@@ -1,0 +1,13 @@
+<resources>
+
+
+    <string name="app_name">Firebase chat</string>
+    <string name="default_web_client_id">208153650972-60rnsnmckr734kvkm5i9tvd272iabdr7.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">340317043507100</string>
+    <string name="fb_login_protocol_scheme">fb340317043507100</string>
+    <string name="users">Users</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
